@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Az én weboldalam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Üdvözöllek a weboldalamon!</h1>
+        <nav>
+            <ul>
+                <li><a href="#rolunk">Rólunk</a></li>
+                <li><a href="#szolgaltatasok">Szolgáltatások</a></li>
+                <li><a href="#galeria">Galéria</a></li>
+                <li><a href="#kapcsolat">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="rolunk">
+            <h2>Rólunk</h2>
+            <p>Itt írhatod le röviden, miről szól a weboldalad. Ez a bekezdés könnyen szerkeszthető.</p>
+            <img src="kepek/cegkep.jpg" alt="Cég kép" class="reszponziv-kep">
+        </section>
+
+        <section id="szolgaltatasok">
+            <h2>Szolgáltatásaink</h2>
+            <div class="szolgaltatasok-container">
+                <div class="szolgaltatas">
+                    <h3>Szolgáltatás 1</h3>
+                    <p>Rövid leírás az első szolgáltatásról.</p>
+                </div>
+                <div class="szolgaltatas">
+                    <h3>Szolgáltatás 2</h3>
+                    <p>Rövid leírás a második szolgáltatásról.</p>
+                </div>
+                <div class="szolgaltatas">
+                    <h3>Szolgáltatás 3</h3>
+                    <p>Rövid leírás a harmadik szolgáltatásról.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2>Galéria</h2>
+            <div class="galeria-container">
+                <img src="kepek/kep1.jpg" alt="Kép 1" class="reszponziv-kep">
+                <img src="kepek/kep2.jpg" alt="Kép 2" class="reszponziv-kep">
+                <img src="kepek/kep3.jpg" alt="Kép 3" class="reszponziv-kep">
+            </div>
+        </section>
+
+        <section id="kapcsolat">
+            <h2>Kapcsolat</h2>
+            <p>Email: <a href="mailto:pelda@email.com">pelda@email.com</a></p>
+            <p>Telefon: +36 30 123 4567</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Az én weboldalam</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
